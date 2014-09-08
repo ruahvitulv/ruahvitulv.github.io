@@ -11,27 +11,8 @@ $(document).ready(function() {
     var windowY = 0;
     var windowYPrev = 0;
     var windowHeight = 0;
+
     function update() {
-        if (windowY < windowHeight && ticking) {
-            $(window).disablescroll();
-            if (windowY > windowYPrev) {
-                jsHomePage.addClass('is-scrolled');
-                jsFadePadding.addClass('is-scrolled');
-                $("html, body").animate({ scrollTop: windowHeight }, 1000, function() {
-                     $(window).disablescroll("undo");
-                     ticking = false;
-                });
-            } else {
-                jsHomePage.removeClass('is-scrolled');
-                jsFadePadding.removeClass('is-scrolled');
-                $("html, body").animate({ scrollTop: 0 }, 1000, function() {
-                     $(window).disablescroll("undo");
-                     ticking = false;
-                });
-            }
-        } else {
-            ticking = false;
-        }
         $('.bg-image').each(function() {
             var bgY = $(this).offset().top;
             var percentage = (100 - (100 * (windowY - bgY) / windowHeight)) / 2;
@@ -62,23 +43,27 @@ $(document).ready(function() {
         ticking = true;
     }
 
-    $(window).scroll(function() {
-        windowYPrev = windowY;
-        windowY = window.scrollY;
-        requestTick();
-    }).scroll();
-
     $(window).resize(function() {
         windowHeight = $(window).height();
-        $('.bg-cover img').each(function() {
-            fitImage($(this));
-        });
+        $('.page').innerHeight(windowHeight);
     }).resize();
 
     $('.js-expandTrigger').click(function() {
         var left = -($(window).width() - $('.js-expand').width()) / 2;
         var top = -($(window).height() - $('.js-expand').height()) / 2;
-        $('.js-expand').addClass('is-expanded').css('left', left).css('right', left).css('top', top).css('bottom', top);
+        $('.js-expand').toggleClass('is-expanded');
+        if ($('.js-expand').hasClass('is-expanded')) {
+            $('.js-expand').css('left', left).css('right', left).css('top', top-20).css('bottom', top);
+        } else {
+            $('.js-expand').css('left', 0).css('right', 0).css('top', 0).css('bottom', 0);
+        }
+    });
+
+    $('.js-scrollDown').click(function() {
+        $(window).disablescroll();
+        $("html, body").animate({ scrollTop: windowHeight }, 1000, function() {
+             $(window).disablescroll("undo");
+        });
     });
 
     if (windowY >= windowHeight) {

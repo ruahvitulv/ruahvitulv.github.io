@@ -384,53 +384,39 @@ th {
 
 body {
   font-family: "Roboto Slab", Georgia, serif;
-  font-size: 18px;
-  line-height: 24px;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 36px;
   color: #1c1c1c; }
+
+h1, h2, h3, h4 {
+  font-weight: inherit; }
 
 h1 {
   font-size: 36px;
   line-height: 48px;
-  font-weight: 100;
-  margin-bottom: 0; }
+  margin: 0; }
 
 h2 {
   font-size: 24px;
   line-height: 18px;
-  font-weight: 300;
   margin: 0; }
 
-h4 {
-  font-size: 30px;
-  line-height: 36px; }
-
 @media (min-width: 1440px) {
-  body {
-    font-size: 24px;
-    line-height: 30px; }
-
   h1 {
     font-size: 48px;
-    line-height: 60px; }
-
-  h4 {
-    font-size: 36px;
-    line-height: 48px; } }
+    line-height: 60px; } }
 @media (max-width: 568px) {
   body {
-    font-size: 14px;
-    line-height: 18px; }
+    font-size: 18px;
+    line-height: 24px; }
 
   h1 {
-    font-size: 24px;
-    line-height: 30px; }
-
-  h4 {
-    font-size: 18px;
-    line-height: 24px; } }
+    font-size: 30px;
+    line-height: 36px; } }
 .bg-image {
   background-size: cover;
-  background-position: top left; }
+  background-position: center top; }
 
 .bg-cover {
   position: absolute;
@@ -474,13 +460,13 @@ p:after {
 .button {
   position: relative;
   cursor: pointer;
+  text-decoration: none !important;
   border: none;
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: bold;
   font-size: 24px;
-  padding: 7px 14px;
-  box-shadow: 0 0 18px rgba(0, 0, 0, 0.25); }
+  padding: 7px 14px; }
   .button:focus {
     outline: none; }
   .button span {
@@ -491,52 +477,50 @@ p:after {
   left: 0;
   right: 0;
   z-index: 3; }
-  .header h1 {
-    color: inherit;
-    transition: 1s ease; }
-  .header h2 {
-    opacity: 1;
-    margin-top: 6px;
-    transition: opacity 0.5s ease, margin 1s ease; }
-  .header.is-scrolled h1 {
-    color: white; }
-  .header.is-scrolled h2 {
-    opacity: 0;
-    margin-top: -53px; }
-  .header.no-animate {
-    transition: none; }
-    .header.no-animate h1, .header.no-animate h2 {
-      transition: none; }
+  @media (max-width: 1024px) {
+    .header {
+      position: absolute; } }
 
 .footer {
   position: fixed;
   bottom: 20px;
   left: 20px;
-  z-index: 3; }
+  z-index: 4; }
 
 .page {
   position: relative;
+  z-index: 4;
   height: 100vh;
   width: 100%; }
 
 .padding {
   padding: 60px 20px 20px; }
 
+.cta {
+  cursor: pointer;
+  display: table;
+  margin: 20px auto 0;
+  padding: 2px 14px;
+  font-size: 18px;
+  border: 1px solid #fb6a00;
+  line-height: 30px;
+  background: white;
+  transition: 0.2s; }
+  .cta:hover {
+    padding: 2px 21px; }
+  .cta:active {
+    padding: 2px 14px;
+    transition: none; }
+
 .homePage {
   position: fixed;
   z-index: 2; }
 
 .homePage-header {
-  padding-top: 120px;
-  transition: 1s ease; }
-  .homePage-header.is-scrolled {
-    padding-top: 0; }
+  padding-top: 120px; }
 
 .homePage-faded {
-  opacity: 0;
-  transition: 1s ease; }
-  .homePage-faded.is-scrolled {
-    opacity: 1; }
+  opacity: 0; }
 
 .cutOut {
   position: relative;
@@ -565,7 +549,8 @@ p:after {
     right: 0;
     top: 0;
     bottom: 0;
-    transition: 0.25s ease; }
+    transition: 0.25s ease;
+    z-index: 1; }
 
 .quote {
   margin: 0;
@@ -573,8 +558,8 @@ p:after {
   font-style: italic; }
 
 .socialIcon {
-  background: #fb6a00;
-  color: white;
+  background: white;
+  color: #1c1c1c;
   text-decoration: none;
   width: 22px;
   height: 22px;
@@ -582,13 +567,30 @@ p:after {
   font-size: 16px;
   line-height: 24px; }
   .socialIcon:hover {
-    background: white; }
+    color: #fb6a00; }
+
+.websiteLink {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; }
+
+.me {
+  max-width: 100%;
+  margin-top: 20px;
+  width: 160px;
+  border-radius: 50%; }
 
 .background-white {
   background: white; }
 
 .background-black {
   background: #1c1c1c; }
+
+.background-blackTransparent {
+  background: #1c1c1c;
+  opacity: 0.8; }
 
 .background-grey {
   background: #e0e0e0; }
@@ -598,6 +600,9 @@ p:after {
 
 .background-pink {
   background: #d81463; }
+
+.color-transparent {
+  color: transparent; }
 
 .color-pink {
   color: #d81463; }

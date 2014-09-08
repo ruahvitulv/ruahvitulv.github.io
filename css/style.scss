@@ -55,13 +55,14 @@ p {
 .button {
     position: relative;
     cursor: pointer;
+    text-decoration: none !important;
     border: none;
     font-family: "Roboto", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 24px;
     padding: 7px 14px;
-    box-shadow: 0 0 18px rgba(black, 0.25);
+    // box-shadow: 0 0 18px rgba(black, 0.25);
     &:focus {
         outline: none;
     }
@@ -75,39 +76,19 @@ p {
     left: 0;
     right: 0;
     z-index: 3;
-    h1 {
-        color: inherit;
-        transition: 1s ease;
-    }
-    h2 {
-        opacity: 1;
-        margin-top: 6px;
-        transition: opacity 0.5s ease, margin 1s ease;
-    }
-    &.is-scrolled {
-        h1 {
-            color: white;
-        }
-        h2 {
-            opacity: 0;
-            margin-top: -53px;
-        }
-    }
-    &.no-animate {
-        transition: none;
-        h1, h2 {
-            transition: none;
-        }
+    @media (max-width: 1024px) {
+        position: absolute;
     }
 }
 .footer {
     position: fixed;
     bottom: 20px;
     left: 20px;
-    z-index: 3;
+    z-index: 4;
 }
 .page {
     position: relative;
+    z-index: 4;
     height: 100vh;
     width: 100%;
 }
@@ -116,23 +97,34 @@ p {
 }
 
 
+.cta {
+    cursor: pointer;
+    display: table;
+    margin: 20px auto 0;
+    padding: 2px 14px;
+    font-size: 18px;
+    border: 1px solid $orange;
+    line-height: 30px;
+    background: white;
+    transition: 0.2s;
+    &:hover {
+        padding: 2px 21px;
+    }
+    &:active {
+        padding: 2px 14px;
+        transition: none;
+    }
+}
+
 .homePage {
     position: fixed;
     z-index: 2;
 }
 .homePage-header {
     padding-top: 120px;
-    transition: 1s ease; 
-    &.is-scrolled {
-        padding-top: 0;  
-    }
 }
 .homePage-faded {
     opacity: 0;
-    transition: 1s ease; 
-    &.is-scrolled {
-        opacity: 1;
-    }
 }
 
 .cutOut {
@@ -165,6 +157,7 @@ p {
         top: 0;
         bottom: 0;
         transition: 0.25s ease;
+        z-index: 1;
     }
 }
 
@@ -175,11 +168,11 @@ p {
     font-style: italic;
 }
 .socialIcon {
-    background: $orange;
+    background: white;
     &:hover {
-        background: white;
+        color: $orange;
     }
-    color: white;
+    color: $black;
     text-decoration: none;
     width: 22px;
     height: 22px;
@@ -187,13 +180,29 @@ p {
     font-size: 16px;
     line-height: 24px;
 }
-
+.websiteLink {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.me {
+    max-width: 100%;
+    margin-top: 20px;
+    width: 160px;
+    border-radius: 50%;
+}
 
 .background-white {
     background: white;
 }
 .background-black {
     background: $black;
+}
+.background-blackTransparent {
+    background: $black;
+    opacity: 0.8;
 }
 .background-grey {
     background: $grey;
@@ -203,6 +212,9 @@ p {
 }
 .background-pink {
     background: $pink;
+}
+.color-transparent {
+    color: transparent;
 }
 .color-pink {
     color: $pink;
