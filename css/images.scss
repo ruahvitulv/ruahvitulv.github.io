@@ -1,0 +1,25 @@
+.bg-image {
+	background-size: cover;
+	background-position: top left;
+}
+.bg-cover {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	overflow: hidden;
+	z-index: -1;
+}
+.bg-page2 {
+	background-image: url('../images/bg-page2.jpg');
+}
+.bg-page3 {
+	background-image: url('../images/bg-page3.jpg');
+}
+.bg-page4 {
+	background-image: url('../images/bg-page4.jpg');
+}
+.bg-page5 {
+	background-image: url('../images/bg-page5.jpg');
+}
