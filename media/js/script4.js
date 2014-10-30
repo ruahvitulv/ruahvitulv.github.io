@@ -71,7 +71,7 @@ $(document).ready(function() {
 
 
 	$('#fullpage').fullpage({
-		anchors: ['welcome', 'about', 'trueskate', 'admin', 'stackla', 'manchester', 'asntm', 'myer', 'contact'],
+		anchors: ['welcome', 'about', 'soulfest', 'statementclothing', 'balancedcarepodiatry', 'landartaustralia', 'glamcorner', 'contact'],
 		css3: true
 	});
 
