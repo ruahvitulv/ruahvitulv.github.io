@@ -1,217 +1,43 @@
-<!DOCTYPE html>
-<html lang="en-US">
-<head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui" />
-	<meta name="HandheldFriendly" content="true" />
-	<meta name="apple-mobile-web-app-capable" content="YES" />
-	<title>Rua Hvitulv - Designer &amp; Photographer</title>
-	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-	<!--[if lt IE 9]>
-	<script src="media/js/html5shiv.js"></script>
-	<![endif]-->
+---
+layout: default
+body-class: fullscreen
 
-	<link rel="stylesheet" type="text/css" href="media/css/style.css" />
-	<script src='media/js/jquery-1.8.1.min.js'></script>
-	<script src='media/js/fastclick.js'></script>
-	<script src='media/js/script.js'></script>
-</head>
-<body>
-	<div id="fullpage">
-		<section class="section bg-white no-padding">
-			<div>
-				<div class="container mobile-align-center">
-					<div class="grid grid-6-12 offset-bottom-1">
-						<div class="f-large align-right hi-im superscript animate-before js-animate-1">
-							Hi, I'm
-						</div>
-						<h1 class="pull-right uppercase align-right padding-bottom animate-before js-animate-2">
-							Rua<br>Hvitulv
-						</h1>
-					</div>
-					<div class="grid grid-6-12 offset-top-1">
-						<p class="f-large short-width animate-before js-animate-3">
-							I'm available for hire for Web Design, Graphic Design and Photography.
-						</p>
-						<button class="animate-before js-animate-4">Explore</button>
-					</div>
-				</div>
-			</div>
-		</section>
+siteNav: home
+---
 
+<section id="content" role="main">
+	<div class="wrapper">
+		<!-- WYSIWYG -->
 
-		<section class="section dark bg-blue no-padding">
-			<div>
-				<div class="text container">
-					<div class="grid grid-4-12 offset-top-2">
-						<div class="f-large align-right superscript tablet-hide">
-							A little about
-						</div>
-						<h1 class="pull-right uppercase align-right mobile-align-center padding-bottom">
-							About<br class="tablet-hide"> Me
-						</h1>
-					</div>
-					<div class="grid grid-8-12 offset-bottom-2">
-						<img class="me mobile-align-center mobile-hide" src="media/images/me.jpg" width="260">
-						<div class="me-blurry"></div>
-						<p class="f-large">
-							I'm a web artist and photographer based in Sydney, Australia. 
-							<br>
-							Currently working for <a href="http://www.sitesuite.com.au/" target="_blank">SiteSuite</a>, I craft beautiful and usable websites, and organise fashion shoot campaigns. Want in?
-						</p>
-					</div>
-				</div>
-			</div>
-		</section>
+		<div class="position-absolute">
+			<h2 class="big no-margin"><strong>{{ site.name }}</strong></h2>
+			<h2>Yoga Teacher and Awesome Person</h2><br />
+		</div>
+		
 
+		<div class="gallery fullscreen-gallery">
+			
+			<figure class="gallery-item">
+				<header class='gallery-icon'>
+					<div class="gallery-video" style="background-image: url('/assets/images/cover.jpg');">
+						<div id="video-wrap" class="video-wrap">
+							<video preload="metadata" autoplay loop id="my-video">
+								<source src="/assets/video/rua_yoga.mp4" type="video/mp4">
+							</video>
+					  	 </div>
+					</div>
+				</header>	
+				<figcaption class='gallery-caption'>
+					<div class="entry-summary">
+						<h4 class="home-latestPosts-title">Latest Journal</h4>
+						{% for post in site.posts limit:1 %}
+							<a class="home-latestPosts-link" href="{{ post.url | prepend: site.baseurl }}/">{{ post.title }}</a>
+						{% endfor %}
+					</div>
+				</figcaption>
+			</figure>
+		</div>
 
-		<section class="section dark bg-black">
-			<div>
-				<div class="container wide">
-					<div class="text grid grid-4-12">
-						<div class="f-small align-right superscript tablet-hide">
-							Web Design, Concept, Coding &amp; Photography
-						</div>
-						<h2 class="uppercase align-right padding-bottom">
-							Soulfest
-						</h2>
-						<p class="f-medium align-right">
-							Soulfest is the #1 Soul Festival in Australia. <span class="mobile-hide">The site implements <a href="http://stackla.com" target="_blank">Stackla</a> to encourage social engagement.</span> The site helped the festival sell over 30,000 tickets.
-						</p>
-						<a class="button pull-right" href="http://soulfest.com.au/" target="_blank">Visit Site <i class="icon-right"></i></a>
-					</div>
-					<div class="grid grid-8-12">
-						<div class="img-viewer">
-							<img src="media/images/screens/soulfest.jpg">
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-
-
-		<section class="section dark bg-black">
-			<div>
-				<div class="container wide">
-					<div class="text grid grid-4-12">
-						<div class="f-small align-right superscript tablet-hide">
-							Web Design + Photography
-						</div>
-						<h2 class="uppercase align-right padding-bottom">
-							Statement Clothing
-						</h2>
-						<p class="f-medium align-right" style="clear: right;">
-							These boys are trying a whole new concept of fashion: dressing boys and girls alike. They are the only Aussie stockist for every single brand they sell. <span class="tablet-hide">The site needed to push boundaries and provide constant engagement with their customers through social media promos.</span>
-						</p>
-						<a class="button pull-right" href="http://www.statementclothing.com.au/" target="_blank">Visit Site <i class="icon-right"></i></a>
-					</div>
-					<div class="grid grid-8-12">
-						<div class="img-viewer">
-							<img src="media/images/screens/statement.jpg">
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-
-
-		<section class="section dark bg-black">
-			<div>
-				<div class="container wide">
-					<div class="text grid grid-4-12">
-						<div class="f-small align-right superscript tablet-hide">
-							Web Design
-						</div>
-						<h2 class="uppercase align-right padding-bottom">
-							Balanced Care Podiatry
-						</h2>
-						<p class="f-medium align-right">
-							Balanced Care Podiatry is a simple, clean and professional website.
-						</p>
-						<a class="button pull-right" href="http://www.balancedcarepodiatry.com.au/" target="_blank">Visit Site <i class="icon-right"></i></a>
-					</div>
-					<div class="grid grid-8-12">
-						<div class="img-viewer">
-							<img src="media/images/screens/podiatry.jpg">
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-
-
-		<section class="section dark bg-black">
-			<div>
-				<div class="container wide">
-					<div class="text grid grid-4-12">
-						<div class="f-small align-right superscript tablet-hide">
-							Web Design &amp; Coding
-						</div>
-						<h2 class="uppercase align-right padding-bottom">
-							Land Art Australia
-						</h2>
-						<p class="f-medium align-right">
-						 	This one was a chance to do something really unconventional and unique. Another eCommerce site<span class="mobile-hide">, but with heavy lean on the arty side -</span> combining traditional web user experience with the aesthetics of a canvas.
-						</p>
-						<a class="button pull-right" href="http://landartaust.com.au/" target="_blank">Visit Site <i class="icon-right"></i></a>
-					</div>
-					<div class="grid grid-8-12">
-						<div class="img-viewer">
-							<img src="media/images/screens/landart.jpg">
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-
-
-		<section class="section dark bg-black">
-			<div>
-				<div class="container wide">
-					<div class="text grid grid-4-12">
-						<div class="f-small align-right superscript tablet-hide">
-							Web Design &amp; Coding
-						</div>
-						<h2 class="uppercase align-right padding-bottom">
-							Glamcorner
-						</h2>
-						<p class="f-medium align-right">
-							When launched in 2012, the site went on the Melbourne IT platform for the best User Experience of the Year. It's a cross-platform eCommerce site with focus on awesome SEO.
-						</p>
-						<a class="button pull-right" href="http://www.glamcorner.com.au/" target="_blank">Visit Site <i class="icon-right"></i></a>
-					</div>
-					<div class="grid grid-8-12">
-						<div class="img-viewer">
-							<img src="media/images/screens/glamcorner.jpg">
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-
-
-		<section class="section bg-wheat no-padding">
-			<div>
-				<div class="container mobile-align-center">
-					<div class="grid grid-6-12">
-						<h1 class="pull-right uppercase align-right">
-							Contact<br class="tablet-hide"> Me
-						</h1>
-					</div>
-					<div class="grid grid-6-12">
-						<p class="f-large">
-							Let's work together!
-							<br>
-							<a href="mailto:ruxandra.balcangiu@gmail.com"><i class="icon-fw icon-mail"></i>ruxandra.balcangiu@gmail.com</a>
-							<br>
-							<a><i class="icon-fw icon-phone"></i>0400 183 128</a>
-							<br>
-							<a href="RuaHvitulvResume.pdf" target="_blank"><i class="icon-fw icon-doc-text"></i>Résumé</a>
-						</p>
-					</div>
-				</div>
-			</div>
-		</section>
-	</div>
-</body>
-</html>
+		<!-- END WYSIWYG -->
+	</div><!-- END .wrapper -->
+</section>

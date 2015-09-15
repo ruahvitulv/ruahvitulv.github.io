@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<section id="content" role="main">
+
+	<div class="featured-image-header">
+		<div id="">
+			<img src="/assets/images/cover.jpg"alt="" />
+		</div>
+	</div>
+
+	<div class="wrapper">
+
+		<h1 class="post-title">{{ page.title }}</h1>
+		<p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+
+		<article class="post-content">
+			{{ content }}
+		</article>
+	</div>
+</section>

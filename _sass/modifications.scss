@@ -1,0 +1,25 @@
+body {
+	font-family: "Charter"; // !! Gotta include this as a font file.
+}
+input, textarea, select, input[type="submit"], input[type="button"], button, .button {
+	font-family: inherit;
+}
+.home-latestPosts-title {
+	display: inline-block;
+	text-transform: uppercase;
+}
+.home-latestPosts-link {
+	font-size: 1.15em;
+	margin-left: 0.5em;
+}
+.blog-post-date {
+	color: #999;
+	font-size: 12px;
+	padding: 0;
+}
+.blog-post-title {
+	margin-bottom: 0;
+}
+.blog-post-description {
+	color: $text-color;
+}

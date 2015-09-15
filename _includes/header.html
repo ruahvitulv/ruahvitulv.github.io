@@ -1,0 +1,27 @@
+<header role="banner" id="header">
+		
+	<div class="wrapper">
+
+		<!-- Logo __-->
+		<h1 id="logo">
+			<a href="/index.html" rel="home" id="logo-svg-animated"> 
+				<img src="imgs/logo-white.png" alt="logo" />
+			</a>
+		</h1>
+	
+		<!-- Main menu __-->
+		<nav id="mainmenu" role="navigation">
+		
+			<div id="menu-burger"><i class="icon-menu"></i></div>
+			<div id="menu">
+				<ul>
+					<li class=" {% if page.siteNav == 'home' %}current_page_parent{% endif %}"><a href="/">Home</a></li>
+					<li class=" {% if page.siteNav == 'about' %}current_page_parent{% endif %}"><a href="/about-me/">About Me</a></li>
+					<li class=" {% if page.siteNav == 'journal' %}current_page_parent{% endif %}"><a href="/journal/">Journal</a></li>
+					<li class=" {% if page.siteNav == 'contact' %}current_page_parent{% endif %}"><a href="/contact/">Contact</a></li>
+				</ul>
+			</div>
+		</nav>
+	</div> <!-- END .wrapper -->
+	
+</header>

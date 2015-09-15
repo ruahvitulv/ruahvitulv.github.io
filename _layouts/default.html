@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+	{% include head.html %}
+
+	<body {% if page.body-class %}class="{{ page.body-class }}"{% endif %}>
+
+		<!-- Loader -->
+		<div class="loadreveal"></div>
+		<div id="loadscreen"><div id="loader"><span></span></div></div>
+
+		{% include header.html %}
+
+		<div class="page-content">
+			<div class="wrapper">
+				{{ content }}
+			</div>
+		</div>
+
+		{% include footer.html %}
+
+	</body>
+
+</html>
