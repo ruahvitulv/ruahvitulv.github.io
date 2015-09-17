@@ -24,7 +24,7 @@
 	<link rel="Shortcut Icon" type="image/ico" href="imgs/favicon.ico" />
 </head>
 
-	<body >
+	<body class="post has-featured-image">
 
 		<!-- Loader -->
 		<div class="loadreveal"></div>
@@ -48,8 +48,8 @@
 			<div id="menu">
 				<ul>
 					<li class=" "><a href="/">Home</a></li>
-					<li class=" "><a href="/about-me/">About Me</a></li>
-					<li class=" "><a href="/journal/">Journal</a></li>
+					<li class=" current_page_parent"><a href="/about/">About</a></li>
+					<!-- <li class=" "><a href="/journal/">Journal</a></li> -->
 					<li class=" "><a href="/contact/">Contact</a></li>
 				</ul>
 			</div>
@@ -60,33 +60,47 @@
 
 		<div class="page-content">
 			<div class="wrapper">
-				<div class="post">
+				<section id="content" role="main">
 
-  <header class="post-header">
-    <h1 class="post-title">About</h1>
-  </header>
+	<div class="featured-image-header">
+		<div id="">
+			<img class="about-coverPhoto" src="/assets/images/cover.jpg"alt="" />
+		</div>
+	</div>
 
-  <article class="post-content">
-    <p>This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at <a href="http://jekyllrb.com/">jekyllrb.com</a></p>
-
-<p>You can find the source code for the Jekyll new theme at: <a href="https://github.com/jglovier/jekyll-new">github.com/jglovier/jekyll-new</a></p>
-
-<p>You can find the source code for Jekyll at <a href="https://github.com/jekyll/jekyll">github.com/jekyll/jekyll</a></p>
-
-  </article>
-
-</div>
-
+	<div class="wrapper">
+		<div class="column-grid column-grid-3">
+			<div class="column column-span-1 column-push-0 column-first">
+				<img class="about-profilePhoto" src="/assets/images/me.jpg" alt="" />
+				<figcaption class="small about-profilePhoto-caption">Me in Cappadocia, Turkey</figcaption>
+			</div>
+			<div class="column column-span-2 column-push-0 column-last">
+				<h1>About Rua</h1>
+				<p>The sheer truth is that Rua was a terribly inconstant yoga practitioner. And student.</p>
+				<p>She didn’t go do yoga because she had back aches. Her back was just fine.</p>
+				<p>She didn’t go do yoga for the spiritual side of it because she thought that that was ludicrous.</p>
+				<p>She didn’t go do yoga to be surrounded by hipsters, because she can’t stand them. Even though she is one.</p>
+				<p>She stumbled upon yoga thanks to this dude she was frantically dating and because she discovered she couldn’t cross her legs.</p>
+				<p>Seriously. She really couldn’t.</p>
+				<p>She had tried getting properly into yoga time and time again over the past decade or so but it wouldn’t stick. She had a bit of a problem with hearing about crystals and full moons, she’s rather skeptical. Side effect of studying too much maths for her own good.</p>
+				<p>She’ll never be the one to do 10 hours a day although she’s met a few. And she’ll always combine within her approach a sound scientific approach. She just can’t be convinced otherwise, and it’s the kind of convection she needs to refresh regularly.</p>
+				<p>She has though been doing it more or less regularly through the past 2 years, and has in the meantime garnered a series of certifications to trick people into giving her some money for not too much work.</p>
+				<p>While in India, although she still sucked at crossing her legs many people seemed to really love her classes, including her outstanding gurus, the pranayama and the asana teacher.</p>
+				<p>This site is an attempt for her to finally commit and get better as a teacher. She’ll be trying really hard. She promises.</p>
+			</div>
+		</div>
+	</div>		
+</section>
 			</div>
 		</div>
 
-		<footer id="footer" role="contentinfo">
+		<!-- <footer id="footer" role="contentinfo">
 	<ul class="social-icons">
 		<li><a href="#" target="_blank" title="Flickr"><i class="icon-flickr"></i></a></li>
 		<li><a href="#" target="_blank" title="Facebook"><i class="icon-facebook"></i></a></li>
 		<li><a href="#" target="_blank" title="Twitter"><i class="icon-twitter"></i></a></li>               
 	</ul> 
-</footer>
+</footer> -->
 
 <!-- Javascripts ______________________________________-->
 <script src="/assets/js/jquery.min.js"></script> 

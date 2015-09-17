@@ -1,9 +1,15 @@
 body {
-	font-family: "Charter"; // !! Gotta include this as a font file.
+	font-family: "Charter", Georgia, serif; // !! Gotta include this as a font file.
 }
 input, textarea, select, input[type="submit"], input[type="button"], button, .button {
 	font-family: inherit;
 }
+input[type=submit], input[type=button], button, .button {
+    padding: 10px 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+// Homepage
 .home-latestPosts-title {
 	display: inline-block;
 	text-transform: uppercase;
@@ -12,6 +18,14 @@ input, textarea, select, input[type="submit"], input[type="button"], button, .bu
 	font-size: 1.15em;
 	margin-left: 0.5em;
 }
+body.fullscreen .position-absolute {
+	bottom: 5%;
+}
+.gallery-video {
+	opacity: 0.75;
+}
+
+// Blog
 .blog-post-date {
 	color: #999;
 	font-size: 12px;
@@ -22,4 +36,16 @@ input, textarea, select, input[type="submit"], input[type="button"], button, .bu
 }
 .blog-post-description {
 	color: $text-color;
+}
+
+// About Me
+img.about-coverPhoto {
+	top: auto;
+	bottom: 0;
+}
+.about-profilePhoto {
+	margin-bottom: 0;
+}
+.about-profilePhoto-caption {
+	color: #999;
 }
