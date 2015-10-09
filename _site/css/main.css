@@ -3498,3 +3498,14 @@ img.about-coverPhoto {
 
 .about-profilePhoto-caption {
   color: #999; }
+
+#message {
+  background-color: #67C144;
+  text-align: center;
+  display: table;
+  margin: 0 auto;
+  color: white;
+  padding: 6px 20px;
+  border-radius: 80px; }
+  #message.hidden {
+    display: none; }

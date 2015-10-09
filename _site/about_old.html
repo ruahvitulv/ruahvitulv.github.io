@@ -112,6 +112,46 @@
 			pauseVideoOnViewLoss: false
 		});
 	});
+
+	/* Formspree Contact Form */
+	$(document).on('click', '#submit', function(e){
+		e.preventDefault(); // prevent the form to do the post.
+
+		var contactForm = $("#contactform")[0],
+		inputName = $("#contactform").find("#name"),
+		inputEmail = $("#contactform").find("#email"),
+		inputMessage = $("#contactform").find("#comments"),
+		sendButton = $("#contactform").find("#submit");
+
+		sendButton.attr("data-text", "Sending...");
+
+		var xhr = new XMLHttpRequest();
+		xhr.open('POST', '//formspree.io/ruxandra.balcangiu@gmail.com', true);
+		xhr.setRequestHeader("Accept", "application/json")
+		xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded")
+
+		xhr.send(
+			"name=" + inputName.val() +
+			"&email=" + inputEmail.val() +
+			"&message=" + inputMessage.val());
+
+		xhr.onloadend = function (res) {
+			if (res.target.status === 200){
+				$('#message').text('Thanks for contacting me! I\'ll be in touch as soon as I can.').removeClass('hidden');
+				$('#contactform').hide();
+				// Clear form values
+				inputName.val('').removeClass('is-notEmpty');
+				inputEmail.val('').removeClass('is-notEmpty');
+				inputMessage.val('').removeClass('is-notEmpty');
+			}
+			else {
+				// toggleContactModal('error', 'Something went wrong. Please double check your details.');
+			}
+			setTimeout(function() {
+				sendButton.attr("data-text", "Submit");	
+			}, 1000);
+		}
+	});
 </script>
 
 	</body>
