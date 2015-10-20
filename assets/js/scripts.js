@@ -328,7 +328,7 @@
 	
 	// load screen
 	jQuery('body.home.loading').height( jQuery(window).height() ) ;
-	jQuery( "a:not(#gallery-filter a, #grid-changer a)" ).on( 'click', function( e ) {
+	jQuery( "a:not(#gallery-filter a, #grid-changer a, .dont-load)" ).on( 'click', function( e ) {
 		var link = $( this ).attr( 'href' );
 
 		if ( $( this ).attr( 'id' ) != 'votelikebutton' && $( this ).attr( 'target' ) != '_blank' && link.indexOf( '.jpg' ) < 0 && link.indexOf( '.jpeg' ) < 0 && link.indexOf( '.png' ) < 0 && link.indexOf( '.gif' ) < 0 && link.indexOf( '#' ) < 0 ) {

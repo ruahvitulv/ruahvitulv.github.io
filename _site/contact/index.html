@@ -21,7 +21,7 @@
 	<link rel="canonical" href="http://yourdomain.com/contact/">
 	<link rel="alternate" type="application/rss+xml" title="Rua Hvitulv Yoga" href="http://yourdomain.com/feed.xml" />
 
-	<link rel="Shortcut Icon" type="image/ico" href="favicon.ico" />
+	<link rel="Shortcut Icon" type="image/ico" href="/favicon.ico" />
 </head>
 
 	<body >
@@ -65,7 +65,7 @@
 	<div class="wrapper">
 
 		<h2>Contact Me</h2>
-		<p>Please fill in the following form to contact me, or email me at <a href="mailto:ruxandra.balcangiu@gmail.com">ruxandra.balcangiu@gmail.com</a>.</p>
+		<p>Please fill in the following form to contact me, or email me at <a class="dont-load" href="mailto:rua.hvitulv@icloud.com">rua.hvitulv@icloud.com</a>.</p>
 		
 		<div id="message" class="hidden"></div>
 		<form method="post" action="contact/contact.php" name="contactform" id="contactform">
@@ -89,12 +89,6 @@
 				<p>
 					<input type="submit" class="submit" id="submit" value="Submit" />
 				</p>
-
-				<!-- <p><span class="required">*</span> Are you human?
-					<label for="verify" accesskey="V" class="inline">&nbsp;&nbsp;&nbsp;3&nbsp;+&nbsp;1&nbsp;=</label>
-					<input name="verify" type="text" id="verify" size="4" value="" style="width: 30px;" />
-					
-				</p> -->
 			</fieldset>
 
 		</form>
@@ -148,7 +142,7 @@
 		sendButton.attr("data-text", "Sending...");
 
 		var xhr = new XMLHttpRequest();
-		xhr.open('POST', '//formspree.io/ruxandra.balcangiu@gmail.com', true);
+		xhr.open('POST', '//formspree.io/rua.hvitulv@icloud.com', true);
 		xhr.setRequestHeader("Accept", "application/json")
 		xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded")
 
