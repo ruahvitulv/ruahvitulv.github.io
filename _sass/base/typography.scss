@@ -29,8 +29,8 @@ h2,
 	font-style: italic;
 	text-align: left;
 	color: $pink;
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, $pink), color-stop(100%, $blue-90)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top, $pink 0%, $blue-90 100%); /* Chrome10+,Safari5.1+ */
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, $pink), color-stop(100%, $blue-90)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left, $pink 0%, $blue-90 100%); /* Chrome10+,Safari5.1+ */
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	clear: both;
