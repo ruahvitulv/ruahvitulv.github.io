@@ -20,6 +20,7 @@ body {
 	margin-top: 0;
 	padding: $rhythm / 2;
 	background: $brown-90;
+	overflow: hidden;
 }
 a {
 	position: relative;
@@ -92,6 +93,7 @@ ul {
 		padding: $rhythm;
 		margin: $rhythm;
 		border: $rhythm solid white;
+		overflow: visible;
 	}
 }
 @media (min-width: 1024px) {
