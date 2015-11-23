@@ -1,0 +1,14 @@
+.m-doubleExposure {
+	position: absolute;
+	max-width: 640px;
+	z-index: -1;
+	bottom: 10%;
+	right: 0;
+}
+
+@media (min-width: 768px) {
+	.m-doubleExposure {
+		left: 0;
+		right: auto;
+	}
+}

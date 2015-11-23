@@ -1,0 +1,26 @@
+// Colours
+$brown-30:				#4d3c2f;
+$brown-90:				#e3dfde;
+$blue-90:				#4495ee;
+$blue-45:				#2c4c6f;
+$pink:					#f01c62;
+$yellow:				#ffd800;
+$green:					#2FCA0C;
+$mono-30:				#4c4c4c;
+$mono-45:				#6f6f6f;
+$mono-60:				#9f9f9f;
+
+// Typography
+$font-body:				"Charter", Georgia, serif;
+$font-header:			"brandon-grotesque", "Brandon Grotesque", "Roboto", "Segoe UI", "Helvetica Neue", Helvetica, Arial;
+$font-mono:				"Roboto Mono", monospace;
+$font-size-lg:			21px;
+$font-size-md:			18px;
+$font-size-sm:			15px;
+$font-size-xs:			13px;
+$line-height:			1.5;
+$line-height-header:	1.1;
+
+// Layout
+$rhythm:				$line-height * 1rem;
+$max-width:				1440px;

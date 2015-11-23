@@ -3,19 +3,38 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>{% if page.title %}{{ page.title }} — {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
-	<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+	<link rel="shortcut icon" type="image/png" href="/favicon.png">
 
-	<link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
 
-	<!-- Fixing Internet Explorer ______________________________________-->
-	<!--[if lt IE 9]>
-		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-		<link rel="stylesheet" href="css/ie.css" />
-	<![endif]-->
-	
-	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-	<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+	<!-- Social Sharing -->
+	{% if page.description %}
+		<title>{{ page.title }} — {{ site.title }}</title>
+		<meta name="twitter:title"       content="{{ page.title }} — {{ site.title }}">
+		<meta property="og:title"        content="{{ page.title }} — {{ site.title }}">
+		<meta name="description"         content="{{ page.description }}">
+		<meta name="twitter:description" content="{{ page.description }}">
+		<meta property="og:description"  content="{{ page.description }}">
+	{% else %}
+		<title>{{ site.title }}</title>
+		<meta name="twitter:title"       content="{{ site.title }}">
+		<meta property="og:title"        content="{{ site.title }}">
+		<meta name="description"         content="{{ site.description }}">
+		<meta name="twitter:description" content="{{ site.description }}">
+		<meta property="og:description"  content="{{ site.description }}">
+	{% endif %}
+		<meta name="twitter:card"            content="summary">
+		<meta property="og:type"             content="website">
+		<meta name="twitter:site"            content="{{ site.twitter_username }}">
+		<meta property="og:url"              content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+		<link rel="canonical"                href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+	{% if page.image %}
+		<meta name="twitter:image"         content="{{ site.url }}/assets/images/{{ page.image }}">
+		<meta property="og:image"          content="{{ site.url }}/assets/images/{{ page.image }}">
+	{% else %}
+		<meta name="twitter:image"         content="{{ site.url }}/assets/images/about/me.jpg">
+		<meta property="og:image"          content="{{ site.url }}/assets/images/about/me.jpg">
+	{% endif %}
 
-	<link rel="Shortcut Icon" type="image/ico" href="/favicon.ico" />
+	<!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+	<link rel="stylesheet" href="{{ "/assets/css/my.css" | prepend: site.baseurl }}">
 </head>

@@ -1,27 +1,9 @@
-<header role="banner" id="header">
-		
-	<div class="wrapper">
-
-		<!-- Logo __-->
-		<h1 id="logo">
-			<a href="/index.html" rel="home"> 
-				<img src="/assets/images/logo.png" alt="logo" width="48">
-			</a>
-		</h1>
-	
-		<!-- Main menu __-->
-		<nav id="mainmenu" role="navigation">
-		
-			<div id="menu-burger"><i class="icon-menu"></i></div>
-			<div id="menu">
-				<ul>
-					<li class=" {% if page.siteNav == 'home' %}current_page_parent{% endif %}"><a href="/">Home</a></li>
-					<li class=" {% if page.siteNav == 'about' %}current_page_parent{% endif %}"><a href="/about/">About</a></li>
-					<!-- <li class=" {% if page.siteNav == 'journal' %}current_page_parent{% endif %}"><a href="/journal/">Journal</a></li> -->
-					<li class=" {% if page.siteNav == 'contact' %}current_page_parent{% endif %}"><a href="/contact/">Contact</a></li>
-				</ul>
-			</div>
+	<header class="m-header u-text-antialiase">
+		<a class="m-header-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+		<nav class="m-header-nav">
+			<a class="m-header-link {% if page.site-nav == 'home' %}active{% endif %}" href="/">Home</a>
+			<a class="m-header-link {% if page.site-nav == 'about' %}active{% endif %}" href="/about/">About</a>
+			<a class="m-header-link {% if page.site-nav == 'retreats' %}active{% endif %}" href="/retreats/">Retreats</a>
+			<a class="m-header-link {% if page.site-nav == 'contact' %}active{% endif %}" href="/contact/">Contact</a>
 		</nav>
-	</div> <!-- END .wrapper -->
-	
-</header>
+	</header>

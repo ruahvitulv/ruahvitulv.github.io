@@ -1,0 +1,190 @@
+html {
+	font-family: $font-body;
+	font-size: $font-size-md;
+	line-height: $line-height;
+	color: $brown-30;
+	-webkit-font-smoothing: subpixel-antialiased;
+}
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3 {
+	font-family: $font-header;
+	line-height: $line-height-header;
+}
+h1,
+.h1 {
+	font-size: 2rem;
+	font-weight: 500;
+	text-align: center;
+	color: inherit;
+}
+h2,
+.h2 {
+	display: inline-block;
+	font-size: 1.66rem;
+	font-weight: 300;
+	font-style: italic;
+	text-align: left;
+	color: $pink;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, $pink), color-stop(100%, $blue-90)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, $pink 0%, $blue-90 100%); /* Chrome10+,Safari5.1+ */
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	clear: both;
+}
+h3,
+.h3 {
+	font-size: 1.33rem;
+	font-weight: 500;
+	line-height: $line-height-header;
+	text-align: left;
+	text-transform: uppercase;
+	color: $blue-45;
+}
+h5 {
+	font-family: $font-mono;
+	// font-style: italic;
+	font-weight: 400;
+	text-align: center;
+}
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+	+ p {
+		margin-top: $line-height * 1em / 2;
+	}
+}
+em {
+	background: $yellow;
+	font-style: normal;
+	padding: 0.1em 0.3em 0.2em;
+	box-decoration-break: clone;
+	-webkit-box-decoration-break: clone;
+}
+blockquote {
+	background: white;
+	padding: $rhythm / 2;
+	font-family: $font_mono;
+	font-size: $font-size-sm;
+	@include clearfix();
+	color: $blue-45;
+	em {
+		margin: 0 -0.2em;
+	}
+	&.right {
+		margin-right: -0.75rem;
+		margin-left: 1.75rem;
+		margin-top: -3rem;
+	}
+}
+.superscript {
+	position: relative;
+	top: 2px;
+	font-size: 0.75em;
+	vertical-align: super;
+}
+
+@media (min-width: 768px) {
+	blockquote {
+		&.right {
+			margin-top: 2.25rem;
+			margin-left: -33%;
+			margin-right: 0;
+		}
+	}
+}
+@media (min-width: 1024px) {
+	html {
+		font-size: $font-size-lg;
+	}
+	h1 {
+		font-size: 3rem;
+	}
+	h2 {
+		font-size: 2.33rem;
+	}
+	h2,
+	ul,
+	p {
+		max-width: 32rem;
+
+	}
+	blockquote {
+		padding: $rhythm;
+		&.right {
+			margin-left: -33%;
+		}
+	}
+	.superscript {
+		top: 1px;
+	}
+}
+
+// @media (max-width: 1023px) {
+// 	html {
+// 		font-size: $font_size-mobile;
+// 	}
+// 	h3,
+// 	.h3 {
+// 		font-size: 1.5rem;
+// 	}
+// }
+
+// @media (max-width: 767px) {
+// 	h1,
+// 	.h1 {
+// 		font-size: 2rem;
+// 	}
+// 	h2,
+// 	.h2 {
+// 		font-size: 1.5rem;
+// 	}
+// 	h3,
+// 	.h3 {
+// 		font-size: 1.25rem;
+// 	}
+// 	blockquote {
+// 		margin-left: -$rhythm/2;
+// 		margin-right: -$rhythm/2;
+// 		padding: $rhythm/2;
+// 		border-left-width: 0;
+// 		border-right-width: 0;
+// 	}
+// }
+
+@font-face {
+    font-family: 'Charter';
+    src: url('/assets/fonts/charter_regular-webfont.eot');
+    src: url('/assets/fonts/charter_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/charter_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+// @font-face {
+//     font-family: 'Charter';
+//     src: url('/assets/fonts/charter_italic-webfont.eot');
+//     src: url('/assets/fonts/charter_italic-webfont.eot?#iefix') format('embedded-opentype'),
+//          url('/assets/fonts/charter_italic-webfont.woff') format('woff');
+//     font-weight: normal;
+//     font-style: italic;
+// }
+// @font-face {
+//     font-family: 'Charter';
+//     src: url('/assets/fonts/charter_bold_italic-webfont.eot');
+//     src: url('/assets/fonts/charter_bold_italic-webfont.eot?#iefix') format('embedded-opentype'),
+//          url('/assets/fonts/charter_bold_italic-webfont.woff') format('woff');
+//     font-weight: bold;
+//     font-style: italic;
+// }
