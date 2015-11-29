@@ -1,3 +1,14 @@
+.m-prices-includedList {
+	li {
+		margin-top: $rhythm / 4;
+	}
+	img {
+		display: inline-block;
+		vertical-align: text-top;
+		position: relative;
+		top: 1px;
+	}
+}
 .m-prices {
 	color: $blue-45;
 	font-size: 17px;
@@ -30,7 +41,7 @@
 }
 .m-prices-price {
 	margin-top: $rhythm / 4;
-	opacity: 0.4;
+	opacity: 0.5;
 	strong {
 		font-weight: 400;
 	}
@@ -80,11 +91,14 @@
 }
 
 @media (min-width: 768px) {
+	.m-prices-includedList img {
+		top: 2px;
+	}
 	.m-prices {
 		font-size: $font-size-md;
-		float: right;
-		margin-top: 0;
-		margin-left: $rhythm;
+		// float: right;
+		// margin-top: 0;
+		// margin-left: $rhythm;
 	}
 	.m-prices-date {
 		font-size: 13px;

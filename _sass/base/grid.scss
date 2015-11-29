@@ -10,6 +10,7 @@
  */
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 .row {
+	margin-top: $rhythm / 2;
 	margin-left: -$rhythm / 2;
 	margin-right: -$rhythm / 2;
 }

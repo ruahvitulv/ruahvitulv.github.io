@@ -95,7 +95,9 @@ blockquote {
 	font-size: 0.75em;
 	vertical-align: super;
 }
-
+.text-muted {
+	color: $mono-60;
+}
 @media (min-width: 768px) {
 	blockquote {
 		&.right {
@@ -132,37 +134,6 @@ blockquote {
 	}
 }
 
-// @media (max-width: 1023px) {
-// 	html {
-// 		font-size: $font_size-mobile;
-// 	}
-// 	h3,
-// 	.h3 {
-// 		font-size: 1.5rem;
-// 	}
-// }
-
-// @media (max-width: 767px) {
-// 	h1,
-// 	.h1 {
-// 		font-size: 2rem;
-// 	}
-// 	h2,
-// 	.h2 {
-// 		font-size: 1.5rem;
-// 	}
-// 	h3,
-// 	.h3 {
-// 		font-size: 1.25rem;
-// 	}
-// 	blockquote {
-// 		margin-left: -$rhythm/2;
-// 		margin-right: -$rhythm/2;
-// 		padding: $rhythm/2;
-// 		border-left-width: 0;
-// 		border-right-width: 0;
-// 	}
-// }
 
 @font-face {
     font-family: 'Charter';
@@ -172,19 +143,19 @@ blockquote {
     font-weight: normal;
     font-style: normal;
 }
-// @font-face {
-//     font-family: 'Charter';
-//     src: url('/assets/fonts/charter_italic-webfont.eot');
-//     src: url('/assets/fonts/charter_italic-webfont.eot?#iefix') format('embedded-opentype'),
-//          url('/assets/fonts/charter_italic-webfont.woff') format('woff');
-//     font-weight: normal;
-//     font-style: italic;
-// }
-// @font-face {
-//     font-family: 'Charter';
-//     src: url('/assets/fonts/charter_bold_italic-webfont.eot');
-//     src: url('/assets/fonts/charter_bold_italic-webfont.eot?#iefix') format('embedded-opentype'),
-//          url('/assets/fonts/charter_bold_italic-webfont.woff') format('woff');
-//     font-weight: bold;
-//     font-style: italic;
-// }
+@font-face {
+    font-family: 'Charter';
+    src: url('/assets/fonts/charter_italic-webfont.eot');
+    src: url('/assets/fonts/charter_italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/charter_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Charter';
+    src: url('/assets/fonts/charter_bold_italic-webfont.eot');
+    src: url('/assets/fonts/charter_bold_italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/charter_bold_italic-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
