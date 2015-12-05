@@ -21,7 +21,6 @@
 }
 
 #terms #content {
-	color: $mono-45;
 	font-family: $font-mono;
 	font-size: $font-size-sm;
 	h2,
@@ -31,6 +30,9 @@
 		max-width: 32rem;
 		margin-left: auto;
 		margin-right: auto;
+	}
+	p:nth-child(2) {
+		margin-top: 1.5rem;
 	}
 	ul {
 		padding-left: $rhythm;
@@ -44,6 +46,13 @@
 	}
 }
 
+.m-footer {
+	color: $mono-60;
+	background: white;
+	text-align: center;
+	margin-top: 0;
+}
+
 @media (min-width: 768px) {
 	.m-doubleExposure {
 		left: 0;
@@ -53,5 +62,17 @@
 		background-image: url('/assets/images/retreat/h1.png');
 		max-width: 856px;
 		padding-bottom: 25.2%;
+	}
+	.m-footer {
+		background: none;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+	}
+}
+@media (min-width: 1024px) {
+	.m-footer {
+		bottom: 7px;
 	}
 }

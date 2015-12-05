@@ -23,6 +23,6 @@ What I am striving for is teach it the way I would have always wanted to be taug
 
 One size fits all won’t do for me. *“Adapting yoga to suit the needs of every unique individual is where the true greatness of yoga lies”* as TKV Desikachar once put it, and it’s how my classes inevitably develop.
 
-In my private space I turn to yoga again and again because it reminds me that I am not perfect and, especially, that that’s ok.
+Today I teach yoga while travelling the world, in group retreats and one-to-one classes, work on independent graphic and photography projects, do some journalistic collaborations. In my private space I turn to yoga again and again because it reminds me that I am not perfect and, especially, that that’s ok.
 
 [img]: http://ruayoga.com/assets/images/about/me.jpg

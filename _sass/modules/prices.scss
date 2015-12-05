@@ -79,6 +79,11 @@
 	text-align: center;
 	color: $pink;
 }
+.m-price-depositDetails {
+	text-align: center;
+	color: $mono-60;
+	font-size: $font-size-sm;
+}
 .m-prices-form {
 	@include clearfix();
 	> * {
