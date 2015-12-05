@@ -108,10 +108,7 @@ blockquote {
 		}
 	}
 }
-@media (min-width: 1281px) {
-	html {
-		font-size: $font-size-lg;
-	}
+@media (min-width: 1024px) {
 	h1 {
 		font-size: 3rem;
 	}
@@ -132,6 +129,11 @@ blockquote {
 		&.right {
 			margin-left: -33%;
 		}
+	}
+}
+@media (min-width: 1281px) {
+	html {
+		font-size: $font-size-lg;
 	}
 	.superscript {
 		top: 1px;
