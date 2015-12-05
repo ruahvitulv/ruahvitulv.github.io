@@ -11,30 +11,35 @@ Please read carefully the terms and conditions between you and RuaYoga for all b
 #### 1. Booking
 
 (A) The initial deposit is £125. A 4% PayPal processing fee will be added before payment, to the total of £130.
+
 (B) Your payment is refundable up to 60 days before the start date of yoga retreat, after that date the course can be changed by another course or person according to our availability and discretion. Refunds of payments are charged at 50 pounds as a cancellation fee. Cancellation charges are detailed in section 7.
+
 (C) The reservation will not be considered effective until we confirm via email that we have received the deposit payment set correctly.
+
 (D) KPYI or RuaYoga do not store any banking data or share personal customer information with third parties.
 
 #### 2. Payment
 
 (A) KPYI & RuaYoga must receive the exact amount of £125 at the time of booking, regardless of changes in currency or third party charges at the time of payment or transfer. If you choose to pay by bank transfer, please inform your bank that all transfer fees are to be charged to you, in order to prevent that KPYI & RuaYoga receive a diminished amount.
-(B) You may make full payment or deposit of the yoga retreat by bank transfer. 
-We will email you our banking details on request.
-We will contact you when we have received the income. In case that you do not receive news from us, please contact us via email, telephone or other means.
+
+(B) You may make full payment or deposit of the yoga retreat by bank transfer. We will email you our banking details upon request. We will contact you upon receipt of payment. In case you don't receive our confirmation please contact RuaYoga via email or Skype, or KPYI via email or phone as provided on the kpyogainspiration.com website. 
 
 (C) In function of the time of your booking as it appears on your PayPal slip or bank transfer slip, your will qualify as very early bird, early bird or regular. The difference to pay before the commencement of the retreat will therefore be 
-£425 - very early bird 
-£460 - early bird
-£525 - regular
+
+- £425 - for very early birds 
+- £460 - early birds
+- £525 - regular
 
 regardless of changes in currency or third party charges at the time of payment or transfer. 
 
 (D) If you make a booking on behalf of several individuals you will be entitled to a discount of £25 per individual up to a maximum discount of £200. e.g. If you are an early bird and you bring with you 3 friends, or you recommend the retreat to 3 people that will consequently all subscribe and notify us of your recommendation, the cost of the retreat for you becomes £585 - (3x£25) = £510. 
 
+(E) You can pay the remaining of the retreat cost at any time before the retreat, by PayPal or bank transfer; or you can pay the remaining amount by PayPal or in cash upon arrival at El Grazalema house. 
 
 #### 3. Accommodation
 
 (A) Share a room with a stranger: If you are traveling alone and would like to share a room with another traveler to reduce your expenses, please provide at the time of booking via email gender preferences of the other person. If any other traveler request for a room share, we will tell you as soon as possible. The amount you need to pay on arrival cash withdrawal will be recalculated, or in case that you have already made full payment by bank transfer, Paypal or credit card, you will be reimbursed for the differences in an individual to double room, accordingly.
+
 (B) SINGLE SUPPLEMENT: If you want a single room please inform us correspondingly when we contact you after the booking.
 
 #### 4. Your Travel Arrangements
@@ -43,15 +48,19 @@ All transport costs from home to our yoga retreat are not included in the price.
 
 #### 5. Travel Insurance
 
-(A) It is your responsibility to have travel insurance to cover for any activity proposed in the yoga retreat that you book as well as potential losses, cancellations, illness or damage and risks. 
+It is your responsibility to have travel insurance to cover for any activity proposed in the yoga retreat that you book as well as potential losses, cancellations, illness or damage and risks. 
 
 #### 5.1 Your Health
 
-(A) It will be only your responsibility to consult a doctor with knowledge of yoga to verify that you are in good health for yoga and other physical activities that KPYI & RuaYoga book under your request. (e.g. mountain hiking, horse riding, aso.)
+(A) It will be your responsibility to consult a doctor to verify that you are in good health for yoga and other physical activities that KPYI & RuaYoga may book under your request. (e.g. mountain hiking, horse riding, aso.)
+
 (B) We request that you inform us if you have any health problems before booking your place in our yoga retreat. If you have health problems that may be affected by the activities of the yoga retreat, KPYI & RuaYoga reserve the right to advise not to participate in it, and could deny your participation to the yoga asana classes if we believe they may represent a risk to your physical health.
+
 (C) If you feel any discomfort, pain or injury during any of the activities of the yoga retreat, the activity must stop as soon as possible and you must contact a member of our staff. 
+
 (D) Although KPYI, RuaYoga & Lucia Yoga (host) take all necessary measures to ensure high standards of health and safety, some of our retreats may be located in rural areas close to the wilderness, therefore we are not responsible for injuries suffered as a result of adventuring in the wild.
-(E) It shall be the responsibility of women who are over 12 and 28 weeks of gestation, to send a letter written by their doctor to confirm they are fit for travel and performing the activities we offer. It is better that those pregnant women who wish to attend the yoga retreat have practiced yoga before.
+
+(E) It shall be the responsibility of women who are over 12 and 28 weeks of gestation, to send a letter written by their doctor to confirm they are fit for travel and performing the activities we offer. It is recommended that those pregnant women who wish to attend the yoga retreat have practiced yoga before.
 
 #### 6. Passports, visas and health requirements
 
@@ -59,7 +68,7 @@ It is the responsibility of all passengers, according to the type of passport yo
 
 #### 7. Cancellation by you
 
-You can cancel your reservation at any time. You can just send the cancellation to us in writing via email. The cancellation will take effect at the time KPYI & RuaYoga send an email confirming the cancellation of the reservation. Cancellation charges are £50. If you cancel less than 60 days before the start of the yoga retreat, you will lose your deposit completely. However, you can cede your place to another person who needs to contact us as soon as possible and end the payment of the yoga retreat as soon as possible to reserve his/her place.
+You can cancel your reservation at any time, by sending the cancellation to us in writing via email. The cancellation will take effect at the time KPYI & RuaYoga send an email confirming the cancellation of the reservation. Cancellation charges are £50. If you cancel less than 60 days before the start of the yoga retreat, you will lose your deposit completely. However, you can cede your place to another person who needs to contact us as soon as possible and end the payment of the yoga retreat as soon as possible to reserve his/her place.
 Returns and refunds are usually performed within 15 working days after you receive our message of confirmation of the cancellation. Once the yoga retreat has begun, if for any reason you have to leave earlier, KPYI & RuaYoga cannot repay any compensation. In Terms of cancelling the retreat once started, if you are covered by your travel insurance, it is suggested you make appropriate insurance claims.
 We do not assume international bank transfer costs or any transaction fees for any kind of cancellation (Retreat bookings, missed classes or others). 
 
@@ -74,7 +83,8 @@ The yoga retreats of Lucia Yoga require a minimum of participants, if that goal 
 #### 10. Our liability to you
 
 (A) KPYI & RuaYoga are responsible for ensuring that our yoga retreats run as close as possible to what is advertised on this website, on the Lucia Yoga website and on any other platforms, and the services offered are carried out under very high quality standards.
-(B) Lucia Yoga does not accept any liability for cancellations, threat of war, or delays caused by war, terrorist actions or threats, industrial action, civil strife, closure of airports, technical problems to transport, natural disasters, unforeseen changes in your circumstances, or other events beyond our control.
+
+(B) KPYI & RuaYoga do not accept any liability for cancellations, threat of war, or delays caused by war, terrorist actions or threats, industrial action, civil strife, closure of airports, technical problems to transport, natural disasters, unforeseen changes in your circumstances, or other events beyond our control.
 
 (C) KPYI & RuaYoga are not responsible for any physical or psychological injury that you may have. You are responsible for the possible risks that you may take during a yoga lesson. We are not responsible for any medical or psychological condition that you can develop during the yoga retreat. We are not responsible for loss, damage or theft of personal belongings.
 
