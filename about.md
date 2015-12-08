@@ -5,7 +5,7 @@ site-nav: about
 permalink: /about/
 ---
 
-I have always been scientifically inclined and skeptical to a fault. Thus it came as a big surprise for those who knew me to hear I had gone to India to become a yoga teacher. Abandoning a very promising - and miserable - career in IT in Australia.
+I have always been scientifically inclined and skeptical to a fault. Thus it came as a big surprise for those who knew me to hear I had gone to India to become a yoga teacher. Abandoning a very promising - and joyless - career in corporate IT, in Australia.
 
 <figure class="u-pull-right image-small">
 	<img src="/assets/images/about/me.jpg">
@@ -23,6 +23,6 @@ What I am striving for is teach it the way I would have always wanted to be taug
 
 One size fits all won’t do for me. *“Adapting yoga to suit the needs of every unique individual is where the true greatness of yoga lies”* as TKV Desikachar once put it, and it’s how my classes inevitably develop.
 
-Today I teach yoga while travelling the world, in group retreats and one-to-one classes, work on independent graphic and photography projects, do some journalistic collaborations. In my private space I turn to yoga again and again because it reminds me that I am not perfect and, especially, that that’s ok.
+Today I teach yoga while travelling the world, in group retreats and one-to-one classes, work on independent graphic and photography projects, do journalistic collaborations. In my private space I turn to yoga again and again because it reminds me that I am not perfect and, especially, that that’s ok.
 
 [img]: http://ruayoga.com/assets/images/about/me.jpg
