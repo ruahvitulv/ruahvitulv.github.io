@@ -33,8 +33,11 @@
 	}
 }
 
+.u-text-subpixelAntialiase {
+	-webkit-font-smoothing: subpixel-antialiased;
+	-moz-osx-font-smoothing: auto;
+}
 .u-text-antialiase {
-	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }

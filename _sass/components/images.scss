@@ -20,6 +20,8 @@ figcaption {
 	margin-top: 0;
 	font-size: $font-size-sm;
 	color: $mono-45;
+	-webkit-font-smoothing: subpixel-antialiased;
+	-moz-osx-font-smoothing: auto;
 }
 
 .image-small {

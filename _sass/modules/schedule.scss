@@ -9,6 +9,8 @@
 	li + li {
 		margin-top: $rhythm / 2;
 	}
+	-webkit-font-smoothing: subpixel-antialiased;
+	-moz-osx-font-smoothing: auto;
 }
 .m-schedule-time {
 	color: $mono-60;

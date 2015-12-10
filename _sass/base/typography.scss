@@ -3,7 +3,9 @@ html {
 	font-size: $font-size-md;
 	line-height: $line-height;
 	color: $brown-30;
-	-webkit-font-smoothing: subpixel-antialiased;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 h1,
 .h1,
@@ -50,6 +52,8 @@ h5 {
 	// font-style: italic;
 	font-weight: 400;
 	text-align: center;
+	-webkit-font-smoothing: subpixel-antialiased;
+	-moz-osx-font-smoothing: auto;
 }
 h1,
 .h1,
@@ -78,6 +82,8 @@ blockquote {
 	background: white;
 	padding: $rhythm / 2;
 	font-family: $font_mono;
+	-webkit-font-smoothing: subpixel-antialiased;
+	-moz-osx-font-smoothing: auto;
 	font-size: $font-size-sm;
 	@include clearfix();
 	color: $blue-45;
