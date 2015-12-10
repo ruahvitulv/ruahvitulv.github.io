@@ -71,13 +71,18 @@
 	.m-footer {
 		background: none;
 		position: absolute;
-		bottom: 0;
+		bottom: 3px;
 		left: 0;
 		right: 0;
 	}
 }
 @media (min-width: 1024px) {
 	.m-footer {
-		bottom: 7px;
+		bottom: 9px;
+	}
+}
+@media (min-width: 1281px) {
+	.m-footer {
+		bottom: 12px;
 	}
 }
