@@ -48,13 +48,20 @@
 	.m-review-listItem {
 		margin-top: $rhythm;
 	}
-	.m-review-caption {
-		float: left;
+	.m-review-header {
+		display: table;
+		> * {
+			display: table-cell;
+			vertical-align: middle;
+		}
 	}
 	.m-review-avatar {
 		margin-top: 0;
 		margin-left: 0;
-		margin-right: $rhythm / 2;
+		margin-right: 0;
+	}
+	.m-review-caption {
+		padding-left: $rhythm / 2;
 	}
 	.m-review-role {
 		font-size: $font-size-md;
