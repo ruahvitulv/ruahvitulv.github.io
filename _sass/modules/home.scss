@@ -54,6 +54,7 @@
 	font-family: $font-header;
 	font-size: 1.33rem;
 	text-decoration: none;
+	vertical-align: top;
 	+ .m-home-link {
 		margin-top: $rhythm;
 	}
@@ -68,13 +69,20 @@
 	.touch &:active {
 		color: $pink;
 	}
+	img {
+		width: 1em;
+	}
 }
 
 @media (min-width: 768px) {
 	#home .border-container {
-		display: block;
 		width: calc(100% - 3rem);
 		height: calc(100% - 3rem);
+	}
+}
+@media (min-width: 1024px) {
+	#home .border-container {
+		display: block;
 	}
 
 	.m-home-header {
@@ -104,6 +112,10 @@
 			margin-top: 0;
 			margin-left: $rhythm;
 		}
+	}
+	.m-home-link--fb {
+		border: none !important;
+		padding: 1px 0;
 	}
 }
 

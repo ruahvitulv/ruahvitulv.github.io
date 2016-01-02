@@ -17,7 +17,7 @@ body {
 }
 .m-header-title,
 .m-header-link {
-	padding: 13px 4px 3px;
+	padding: 15px 4px 3px;
 	&,
 	.no-touch &:focus,
 	.no-touch &:hover,
@@ -40,13 +40,17 @@ body {
 	font-family: $font-header;
 	text-decoration: none;
 	color: inherit;
+	vertical-align: top;
 	+ .m-header-link {
 		margin-top: 0;
-		margin-left: $rhythm;
+		margin-left: 1rem;
 	}
 	&.active {
 		color: $pink;
 		border-bottom: 2px solid;
+	}
+	img {
+		width: 1em;
 	}
 }
 #home {
@@ -76,8 +80,8 @@ body {
 	.m-header-title,
 	.m-header-link {
 		line-height: 1;
-		vertical-align: top;
 		padding-top: 7px;
+		padding-bottom: 4px;
 	}
 	.m-header-title {
 		display: block;
@@ -90,5 +94,10 @@ body {
 		top: -$rhythm * 1.5;
 		margin-top: 7px;
 		font-size: 1rem;
+	}
+	.m-header-title,
+	.m-header-link {
+		padding-top: 6px;
+		padding-bottom: 3px;
 	}
 }
