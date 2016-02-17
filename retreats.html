@@ -6,7 +6,7 @@ permalink: /retreats/
 cover-image: retreat
 ---
 
-<section class="m-hero">
+<section class="m-hero m-retreat-hero">
 	<div class="m-hero-text u-text-antialiase">
 		<h6 class="m-retreat-h6">1<span class="superscript">st</span> - 7<span class="superscript">th</span> May 2016</h6>
 		<h1 class="m-retreat-h1">Nature Yoga Retreat in Cádiz</h1>
@@ -18,6 +18,25 @@ cover-image: retreat
 <section>
 	<h2>Do good to your spirit and good to the planet by joining this one of a kind retreat</h2>
 
+	<h3>Our Philosophy</h3>
+
+	<p>Whether doing yoga asana or other types of physical exercise, or even only sitting, postural alignment is crucial, a lot of issues originate in it, so a lot of focus will be placed on it during our classes. Yoga is however not just asana, therefore our retreat will provide an overview of all the 8 limbs of yoga.</p>
+
+	<img class="m-doubleExposure" src="/assets/images/retreat/double-exposure.jpg">
+
+	<h3 class="u-text-right">What makes us unique?</h3>
+
+	<ul class="u-pull-right list-bullets">
+		<li>You’ll get to dip a toe or two into Hatha, Vinyasa, Yin and Iyengar yoga, as well as Pranayama and various Meditation techniques.</li>
+		<li>Small groups of up to 16 people and two teachers present, to keep it intimate and ensure you get lots of individual attention and support.</li> 
+		<li>3 vegetarian meals/day, made from local Mediterranean ingredients, are always a win.</li>
+		<li>You can opt for an additional individual yoga session outside of the group session times, to help construct your ideal, personalised practice or...</li>
+		<li>..you can just hike in the mountains, exploring this unbelievable habitat, swim in the pool, play tennis, ride on horseback.</li>
+		<li>KPYI & RuaYoga commit to donate a <em>minimum of 10% of the profit</em> from their retreats to support environment, education and environmental education.</li>
+	</ul>
+</section>
+
+<section>
 	<div class="row">
 		<div class="col-sm-5 col-md-6 col-lg-7">
 			<figure>
@@ -36,25 +55,6 @@ cover-image: retreat
 			</blockquote>
 		</div>
 	</div>
-</section>
-
-<section>
-	<h3>Our Philosophy</h3>
-
-	<p>Whether doing yoga asana or other types of physical exercise, or even only sitting, postural alignment is crucial, a lot of issues originate in it, so a lot of focus will be placed on it during our classes. Yoga is however not just asana, therefore our retreat will provide an overview of all the 8 limbs of yoga.</p>
-
-	<img class="m-doubleExposure" src="/assets/images/retreat/double-exposure.jpg">
-
-	<h3 class="u-text-right">What makes us unique?</h3>
-
-	<ul class="u-pull-right list-bullets">
-		<li>You’ll get to dip a toe or two into Hatha, Vinyasa, Yin and Iyengar yoga, as well as Pranayama and various Meditation techniques.</li>
-		<li>Small groups of up to 16 people and two teachers present, to keep it intimate and ensure you get lots of individual attention and support.</li> 
-		<li>3 vegetarian meals/day, made from local Mediterranean ingredients, are always a win.</li>
-		<li>You can opt for an additional individual yoga session outside of the group session times, to help construct your ideal, personalised practice or...</li>
-		<li>..you can just hike in the mountains, exploring this unbelievable habitat, swim in the pool, play tennis, ride on horseback.</li>
-		<li>KPYI & RuaYoga commit to donate a <em>minimum of 10% of the profit</em> from their retreats to support environment, education and environmental education.</li>
-	</ul>
 </section>
 
 <section>
@@ -244,10 +244,10 @@ cover-image: retreat
 </section>
 
 <section>
-	<h2>Prices & Discounts</h2>
+	<h2>Prices</h2>
 
 	<div class="row">
-		<div class="col-sm-8 col-md-7">
+		<div class="col-sm-push-2 col-sm-8 col-md-push-3 col-md-6">
 			<h3>Included:</h3>
 			<ul class="m-prices-includedList margin-top-xs">
 				<li>
@@ -276,7 +276,27 @@ cover-image: retreat
 				</li>
 			</ul>
 		</div>
-		<div class="col-sm-4">
+	</div>
+
+	{% include retreat-form.html %}
+
+	<p class="center">From griffon vulture colonies to hundreds of endemic Mediterranean plant species such as the rare Spanish fir, relic of the Tertiary geological era, the Sierra de Grazalema's fragile ecosystem needs our protection.</p>
+	
+	<p class="center">This is why KP & RuaYoga commit to <em>donate a minimum 10% of their profits</em> to support projects such as the protection of this incredible natural reserve through O-Live Environmental Association, but also the education of disadvantaged children in India through organisations such as Make a difference or Nanhi Kali.</p>
+
+	<article class="m-prices">
+		<div class="m-price-deposit">Initial Deposit: <strong>£125</strong></div>
+		<div class="m-price-depositDetails margin-top-0">4% processing fee will be added before payment</div>
+
+		<div class="margin-top-sm">
+			{% include paypal-btn.html %}
+		</div>
+	</article>
+
+	<p class="center text-muted">By purchasing this deposit, you accept and agree to our <a href="/terms/">terms and conditions</a>. Don't worry, they're not scary!</p>
+
+	<div class="row">
+		<div class="col-sm-push-2 col-sm-8 col-md-push-3 col-md-6">
 			<h3 class="text-muted">Not included:</h3>
 			<ul class="m-prices-includedList margin-top-xs text-muted">
 				<li>
@@ -294,12 +314,4 @@ cover-image: retreat
 			</ul>
 		</div>
 	</div>
-
-	<p class="center">From griffon vulture colonies to hundreds of endemic Mediterranean plant species such as the rare Spanish fir, relic of the Tertiary geological era, the Sierra de Grazalema's fragile ecosystem needs our protection.</p>
-	
-	<p class="center">This is why KP & RuaYoga commit to <em>donate a minimum 10% of their profits</em> to support projects such as the protection of this incredible natural reserve through O-Live Environmental Association, but also the education of disadvantaged children in India through organisations such as Make a difference or Nanhi Kali.</p>
-
-	{% include retreat-form.html %}
-
-	<p class="center text-muted">By purchasing this deposit, you accept and agree to our <a href="/terms/">terms and conditions</a>. Don't worry, they're not scary!</p>
 </section>

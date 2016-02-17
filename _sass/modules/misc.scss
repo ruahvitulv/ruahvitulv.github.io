@@ -7,17 +7,21 @@
 	-webkit-transform: rotateY(180deg);
 	transform: rotateY(180deg);
 }
-
+.m-retreat-hero {
+	.m-hero-text {
+		max-width: 700px;
+		margin: 0 auto;
+	}
+}
 .m-retreat-h1 {
 	text-indent: -9999px;
-	background-image: url('/assets/images/retreat/h1-mobile.png');
+	background-image: url('/assets/images/retreat/h1.png');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
-	max-width: 401px;
 	height: 0;
-	padding-bottom: 51%;
-	margin: 0 auto;
+	margin-top: 0;
+	padding-bottom: 65.7%;
 }
 
 #terms #content {
@@ -63,10 +67,8 @@
 		left: 0;
 		right: auto;
 	}
-	.m-retreat-h1 {
-		background-image: url('/assets/images/retreat/h1.png');
-		max-width: 856px;
-		padding-bottom: 25.2%;
+	.m-hero.m-retreat-hero {
+		padding: $rhythm * 3;
 	}
 	.m-retreat-h6 {
 		margin-bottom: -0.5em;

@@ -97,10 +97,6 @@ em {
 blockquote {
 	background: white;
 	padding: $rhythm / 2;
-	font-family: $font_mono;
-	-webkit-font-smoothing: subpixel-antialiased;
-	-moz-osx-font-smoothing: auto;
-	font-size: $font-size-sm;
 	@include clearfix();
 	color: $blue-45;
 	em {
@@ -163,6 +159,9 @@ blockquote {
 @media (min-width: 1281px) {
 	html {
 		font-size: $font-size-xl;
+	}
+	blockquote {
+		font-size: $font-size-lg;
 	}
 	.superscript {
 		top: 1px;
